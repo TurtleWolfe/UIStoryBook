@@ -2,6 +2,7 @@ import React from 'react';
 
 // import { Header } from './Header';
 import { Header } from '../components/Header';
+
 import './pageBasket.css';
 import logo from '../stories/assets/Basketball.svg';
 
@@ -14,7 +15,12 @@ interface BasketPageProps {
 
 export const BasketPage = ({ user, onLogin, onLogout, onCreateAccount }: BasketPageProps) => (
   <article>
-    <Header user={user} onLogin={onLogin} onLogout={onLogout} onCreateAccount={onCreateAccount} />
+    <Header
+      user={user}
+      onLogin={onLogin}
+      onLogout={onLogout}
+      onCreateAccount={onCreateAccount}
+    />
 
     <header className="App-header bg-image" >
       <p>
