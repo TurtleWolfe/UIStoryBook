@@ -14,7 +14,9 @@ interface BasketPageProps {
 }
 
 export const BasketPage = ({ user, onLogin, onLogout, onCreateAccount }: BasketPageProps) => (
-  <article>
+  <>
+    {/* <header className="App-header bg-image" > */}
+
     <NavHeader
       user={user}
       onLogin={onLogin}
@@ -23,6 +25,8 @@ export const BasketPage = ({ user, onLogin, onLogout, onCreateAccount }: BasketP
     />
 
     <header className="App-header bg-image" >
+
+
       <p>
         Edit <code>src/App.tsx</code> and save to reload.
       </p>
@@ -36,5 +40,6 @@ export const BasketPage = ({ user, onLogin, onLogout, onCreateAccount }: BasketP
       </a> */}
       <img src={logo} className="App-logo" alt="logo" />
     </header >
-  </article>
+
+  </>
 );
