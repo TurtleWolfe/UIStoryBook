@@ -176,9 +176,15 @@ button + button {
 }
 
 .navHeader {
-  width: 100%;
-  background-color: rgba(0, 0, 255, 0.1);
+  /* width: 100%; */
+  width: 'auto';
+  background-color: rgba(0, 0, 255, 0.4);
   position: fixed;
+  /*      SitePoint advice     */
+  top: 0;
+  top: 1rem;
+  left: 1rem;
+  right: 1rem;
 }
 
 .App-header {
@@ -340,4 +346,4 @@ li {
 }
 
 
-/*# sourceMappingURL=main.e58afd30.chunk.css.map*/
+/*# sourceMappingURL=main.a1a1674c.chunk.css.map*/
