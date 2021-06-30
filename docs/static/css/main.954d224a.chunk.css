@@ -97,7 +97,7 @@
   -webkit-justify-content: space-between;
           justify-content: space-between;
   /* background-color: #61dafb; */
-  background-color: rgba(0, 0, 255, 0.07);
+  background-color: rgba(125, 125, 255, 0.781);
   /* opacity: 0.3; */
   /* position: fixed; */
   /* width: 90%; */
@@ -106,13 +106,6 @@
 svg {
   display: inline-block;
   vertical-align: top;
-}
-
-.navHeader {
-  /* opacity: 0.3; */
-  /* background-color: rgba(0, 0, 255, 1); */
-  /* position: fixed; */
-  /* width: 100%; */
 }
 
 .Nav-logo {
@@ -175,8 +168,12 @@ button + button {
   }
 }
 
+.navHeader {
+  width: 100%;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: hsl(220, 13%, 18%);
   min-height: 100vh;
   display: -webkit-flex;
   display: flex;
@@ -188,6 +185,23 @@ button + button {
           justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.bg-image {
+  /* position: fixed; */
+  /* background: #333 url('../src/images/court.jpg'); */
+  background: #333 url(../../static/media/court.e6262be4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.9;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
 }
 
 .App-link {
@@ -216,22 +230,6 @@ button + button {
   }
 }
 
-.bg-image {
-  /* position: fixed; */
-  /* background: #333 url('../src/images/court.jpg'); */
-  background: #333 url(../../static/media/court.e6262be4.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  opacity: 0.9;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  /* height: 100vh; */
-}
 .wrapper {
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -333,4 +331,4 @@ li {
 }
 
 
-/*# sourceMappingURL=main.a29fc90d.chunk.css.map*/
+/*# sourceMappingURL=main.954d224a.chunk.css.map*/
