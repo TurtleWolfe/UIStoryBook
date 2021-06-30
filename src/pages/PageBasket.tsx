@@ -15,16 +15,17 @@ interface BasketPageProps {
 
 export const BasketPage = ({ user, onLogin, onLogout, onCreateAccount }: BasketPageProps) => (
   <>
-    {/* <header className="App-header bg-image" > */}
-
-    <NavHeader
-      user={user}
-      onLogin={onLogin}
-      onLogout={onLogout}
-      onCreateAccount={onCreateAccount}
-    />
-
     <header className="App-header bg-image" >
+
+      <NavHeader
+        className='navHeader'
+        user={user}
+        onLogin={onLogin}
+        onLogout={onLogout}
+        onCreateAccount={onCreateAccount}
+      />
+
+      {/* <header className="App-header bg-image" > */}
 
 
       <p>

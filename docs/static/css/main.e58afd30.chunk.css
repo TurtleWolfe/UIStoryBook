@@ -86,21 +86,28 @@
   padding: 12px 24px;
 }
 
+.navHeader {
+  /* opacity: 0.5; */
+  background-color: rgba(0, 0, 255, 0.3);
+  /* top: -100; */
+  /* left: 0; */
+}
+
 .wrapper {
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 15px 20px;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
-          align-items: center;
-  -webkit-justify-content: space-between;
-          justify-content: space-between;
+  /* padding: 15px 20px; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
   /* background-color: #61dafb; */
-  background-color: rgba(125, 125, 255, 0.781);
+  /* background-color: rgba(125, 125, 255, 0.781); */
+  background-color: rgba(0, 0, 255, 0.1);
   /* opacity: 0.3; */
   /* position: fixed; */
   /* width: 90%; */
+  /* top: -100; */
+  /* left: 0; */
 }
 
 svg {
@@ -170,6 +177,8 @@ button + button {
 
 .navHeader {
   width: 100%;
+  background-color: rgba(0, 0, 255, 0.1);
+  position: fixed;
 }
 
 .App-header {
@@ -331,4 +340,4 @@ li {
 }
 
 
-/*# sourceMappingURL=main.954d224a.chunk.css.map*/
+/*# sourceMappingURL=main.e58afd30.chunk.css.map*/
