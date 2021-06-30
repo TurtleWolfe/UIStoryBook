@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import { Header } from './Header';
-import { Header } from '../components/Header';
+import { NavHeader } from '../components/NavHeader';
 
 import './pageBasket.css';
 import logo from '../stories/assets/Basketball.svg';
@@ -15,7 +15,7 @@ interface BasketPageProps {
 
 export const BasketPage = ({ user, onLogin, onLogout, onCreateAccount }: BasketPageProps) => (
   <article>
-    <Header
+    <NavHeader
       user={user}
       onLogin={onLogin}
       onLogout={onLogout}
