@@ -1,15 +1,16 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import { Page } from '../pages/Page';
+import App from '../App';
 import * as HeaderStories from './Header.stories';
+import { BasketPage } from '../pages/PageBasket';
 
 export default {
-  title: 'Example/Page',
-  component: Page,
-} as ComponentMeta<typeof Page>;
+  title: 'Example/App',
+  component: App,
+} as ComponentMeta<typeof BasketPage>;
 
-const Template: ComponentStory<typeof Page> = (args) => <Page {...args} />;
+const Template: ComponentStory<typeof BasketPage> = (args) => <BasketPage {...args} />;
 
 export const LoggedIn = Template.bind({});
 LoggedIn.args = {
