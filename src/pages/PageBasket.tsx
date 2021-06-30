@@ -14,7 +14,7 @@ interface BasketPageProps {
 
 export const BasketPage = ({ user, onLogin, onLogout, onCreateAccount }: BasketPageProps) => (
   <article>
-    {/* <Header user={user} onLogin={onLogin} onLogout={onLogout} onCreateAccount={onCreateAccount} /> */}
+    <Header user={user} onLogin={onLogin} onLogout={onLogout} onCreateAccount={onCreateAccount} />
 
     <header className="App-header bg-image" >
       <p>
